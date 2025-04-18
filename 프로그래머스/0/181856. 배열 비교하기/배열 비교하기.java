@@ -7,12 +7,10 @@ class Solution {
         }
         else if(arr1.length == arr2.length){
             int sum_arr1 = 0;
+            int sum_arr2 = 0;
+            
             for(int i = 0; i < arr1.length; i++){
                 sum_arr1 += arr1[i];
-            }
-            
-            int sum_arr2 = 0;
-            for(int i = 0; i < arr2.length; i++){
                 sum_arr2 += arr2[i];
             }
             
