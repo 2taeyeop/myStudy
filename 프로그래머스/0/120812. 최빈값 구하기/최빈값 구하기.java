@@ -28,12 +28,6 @@ class Solution {
             }
         }
         
-        // for(int m = 0; m < count.length - 1; m++){
-        //     if(count[m] == count[idx] && array[m] != array[m + 1]){
-        //         answer = -1;
-        //     }
-        // }
-        
         return answer;
     }
 }
